@@ -62,7 +62,7 @@ if uploaded_file:
     input_img = np.expand_dims(processed_img, axis=0)
 
     # Load model (assume saved as 'vgg16_bottle_classifier.h5')
-    model = load_model('vgg16_finetuned.h5')
+    model = load_model("mobilenetv2_finetuned.keras")
 
     # Predict
     prediction = model.predict(input_img)[0][0]
