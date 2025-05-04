@@ -3,5 +3,5 @@ numpy
 opencv-python-headless
 Pillow
 matplotlib
-tensorflow
 scikit-learn
+tensorflow==2.13.0
